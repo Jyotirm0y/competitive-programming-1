@@ -1,7 +1,7 @@
 // author: Rodrigo Alves
 // problem: Binary Search Tree
 // url: http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=3769
-// type: Ad hoc, Data Structures
+// type: Data Structures
 // status: AC
 #include <stdio.h>
 

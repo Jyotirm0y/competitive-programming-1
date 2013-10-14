@@ -1,43 +1,17 @@
-# C ignores
+!.gitignore
+target
+bin
 
-# Libraries
-*.lib
-*.a
-
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
-*.exe
 *.out
-*.app
-
-# C++ ignores
-
-## Compiled Object files
-*.slo
-*.lo
-*.o
-
-## Compiled Dynamic libraries
-*.so
-*.dylib
-
-## Compiled Static libraries
-*.lai
-*.la
-*.a
-
-# Java ignores
 
 *.class
+*~
+.project
+.classpath
+.settings/*/*
+.settings
+.DS_Store
+*.log
 
-## Package Files #
 *.jar
-*.war
-*.ear.DS_Store
-
-*.DS_Store
+metrics/
