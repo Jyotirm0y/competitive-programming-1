@@ -3,6 +3,7 @@
 My solutions to many of the problems on the [University of Valladolid Online Judge]
 
 * Username: **rodrigoalves**
+* uHunt profile: http://uhunt.felix-halim.net/id/207816
 * Good problems: http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=3
 
 ## Code
