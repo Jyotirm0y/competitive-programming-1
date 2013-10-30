@@ -1,7 +1,7 @@
 // author: Rodrigo Alves
 // problem: Counting Stars
 // url: http://uva.onlinejudge.org/index.php?option=onlinejudge&page=show_problem&problem=2201
-// status: WA
+// status: AC
 #include <stdio.h>
 
 int main()
