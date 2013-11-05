@@ -10,7 +10,7 @@ My solutions to many of the problems on the [University of Valladolid Online Jud
 ## Code
 
 Preferably my solutions are written in C++. Whenever I find myself unable to solve
-some problem in plain C++, I switch to C or Java.
+some problem in plain C++, I switch to Java.
 
 ## ICPC Veredicts
 
