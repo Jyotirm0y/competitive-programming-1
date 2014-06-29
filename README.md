@@ -37,7 +37,7 @@ Compare:
 
 ## Copyright
 
- © 2013 Rodrigo Alves
+ © 2013-2014 Rodrigo Alves
 
 [University of Valladolid Online Judge]: http://uva.onlinejudge.org/
 [new Issue]: https://github.com/rodrigoalvesvieira/UVa/issues/new
