@@ -35,6 +35,14 @@ Compare:
 
 `$ diff myoutput input`
 
+## Standing on the Shoulder of Giants
+
+A list of people who I personally know and who are way above me on Competitive Programming and knowledge in Algorithms
+
+* Pedro Bello http://uhunt.felix-halim.net/id/3099
+* Lucas Lima http://uhunt.felix-halim.net/id/148413
+* Leonardo Andrade http://uhunt.felix-halim.net/id/164355
+
 ## Copyright
 
  © 2013-2014 Rodrigo Alves
