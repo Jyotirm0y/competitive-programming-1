@@ -1,7 +1,7 @@
 // author: Rodrigo Alves
 // problem: Save Setu
 // url: http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=3834
-// status: WA
+// status: AC
 #include <iostream>
 using namespace std;
 
