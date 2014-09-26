@@ -1,7 +1,7 @@
 // author: Rodrigo Alves
 // problem: Ternary
 // url: http://uva.onlinejudge.org/index.php?option=onlinejudge&Itemid=8&category=23&page=show_problem&problem=2126
-// status: WA
+// status: AC
 
 #include <stdio.h>
 #include <vector>
@@ -12,6 +12,8 @@ int main()
   long long N, rem;
 
   while (scanf("%lld", &N), N >= 0) {
+    if (N == 0) printf("%lld", N);
+
     vector<long long> list;
 
     while (N > 0) {
