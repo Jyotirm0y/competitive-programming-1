@@ -20,37 +20,29 @@ using namespace std;
 
 int matrix[10][10];
 
-int squareSum(int n, int offset)
+int squareSum(int n)
 {
   if (n == 0) return 0;
-  if (n == 1) return matrix[0][0];
+  if (n == 1) {
+    return matrix[0][0];
+  } else {
+    int total = 0;
 
-  int total = 0;
+    // horizontal sub-vectors
+    for (int i = 1; i < (n - 1); i++) {
+      total += matrix[0][i];
+      total += matrix[n-1][i];
+    }
 
-  // horizontal sub-vectors
-  for (int i = (offset); i <= (n - offset - 1); i++) {
-    total += matrix[offset - 1][i];
-    total += matrix[n-1][i];
+    // vertical sub-vectors
+    for (int i = 0; i < n; i++) {
+      total += matrix[i][0];
+      total += matrix[i][n-1];
+    }
 
-    // printf("%d", matrix[offset - 1][i]);
-    // printf("%d", matrix[n - 1][i]);
-
-    printf("matrix[%d][%d]\n", offset - 1, i);
-    printf("matrix[%d][%d]\n", n - 1, i);
+    printf("%d", total);
+    return squareSum(n-1);
   }
-
-  // vertical sub-vectors
-  for (int i = offset - 1; i <= (n - offset); i++) {
-    total += matrix[i][offset - 1];
-    total += matrix[i][n-1];
-
-    // printf("%d", matrix[i][offset - 1]);
-    // printf("%d", matrix[i][n-1]);
-
-
-  }
-
-  return total;
 }
 
 int main()
@@ -65,22 +57,8 @@ int main()
       }
     }
 
-    int offset = 1;
-
     printf("Caso %d:", counter++);
-
-    squareSum(N, offset);
-    printf("\n" );
-    squareSum(N - 1, offset + 1);
-
-    //
-    // while (N > 0) {
-    //   // squareSum(n, offset);
-    //   // printf(" %d", squareSum(N, offset));
-    //   offset++;
-    //
-    //   N = N-2;
-    // }
+    squareSum(N);
 
     printf("\n");
   }
