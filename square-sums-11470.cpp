@@ -1,7 +1,7 @@
 // author: Rodrigo Alves
 // problem: 11470 - Square Sums
 // url: http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=373&page=show_problem&problem=2465
-// status: AC
+// status: TLE
 
 #include <cstdio>
 
