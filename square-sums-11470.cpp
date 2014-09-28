@@ -9,7 +9,9 @@ int matrix[10][10];
 
 int squareSum(int origin, int n, int offset)
 {
-  if (n == 1) {
+  if (n == 0) {
+    return 0;
+  } else if (n == 1) {
     printf(" %d", matrix[origin/2][origin/2]);
     return 0;
   } else {
