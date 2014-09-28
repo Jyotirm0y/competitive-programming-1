@@ -1,6 +1,6 @@
 /**
  * problem: Kindergarten Counting Game
- * url: url: http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=&problem=435
+ * url: http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=&problem=435
  * authors: Rodrigo Alves
  * date: November 2, 2013
  */
