@@ -3,7 +3,7 @@
  * url: http://uva.onlinejudge.org/index.php?option=onlinejudge&page=show_problem&problem=436
  * authors: Rodrigo Alves
  * date: September 28, 2014
- * status: WA
+ * status: AC
  */
 
 import java.util.Scanner;
