@@ -1,47 +1,34 @@
-/*
+// author: Rodrigo Alves
+// problem: 11470 - Square Sums
+// url: http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=373&page=show_problem&problem=2465
+// status: AC
 
-5 3 2 7 9
-1 7 4 2 4
-5 3 2 4 6
-1 3 4 5 1
-1 4 5 6 3
-
-7 4 2
-3 2 4
-3 4 5
-
-2
-
-*/
-
-#include "stdio.h"
-#include <vector>
-using namespace std;
+#include <cstdio>
 
 int matrix[10][10];
 
-int squareSum(int n)
+int squareSum(int origin, int n, int offset)
 {
-  if (n == 0) return 0;
   if (n == 1) {
-    return matrix[0][0];
+    printf(" %d", matrix[origin/2][origin/2]);
+    return 0;
   } else {
     int total = 0;
 
     // horizontal sub-vectors
-    for (int i = 1; i < (n - 1); i++) {
-      total += matrix[0][i];
-      total += matrix[n-1][i];
+    for (int i = offset; i < (origin - offset); i++) {
+      total += matrix[offset][i];
+      total += matrix[origin - offset - 1][i];
     }
 
     // vertical sub-vectors
-    for (int i = 0; i < n; i++) {
-      total += matrix[i][0];
-      total += matrix[i][n-1];
+    for (int i = offset + 1; i < origin - offset - 1; i++) {
+      total += matrix[i][offset];
+      total += matrix[i][origin - offset - 1];
     }
 
-    printf("%d", total);
-    return squareSum(n-1);
+    printf(" %d", total);
+    return squareSum(origin, n-2, offset + 1);
   }
 }
 
@@ -57,8 +44,8 @@ int main()
       }
     }
 
-    printf("Caso %d:", counter++);
-    squareSum(N);
+    printf("Case %d:", counter++);
+    squareSum(N, N, 0);
 
     printf("\n");
   }
