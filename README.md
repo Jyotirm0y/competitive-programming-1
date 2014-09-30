@@ -35,6 +35,10 @@ Compare:
 
 `$ diff myoutput input`
 
+## Problems from other Online Judges
+
+This repo also contains (or may contain) a few problems from other Online Judges, like SPOJ and ACM/ICPC.
+
 ## Standing on the Shoulder of Giants
 
 A list of people who I personally know and who are way above me on Competitive Programming and knowledge in Algorithms
