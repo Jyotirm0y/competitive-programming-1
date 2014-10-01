@@ -27,7 +27,7 @@ some problem in plain C++, I switch to Java.
 
 For UVa problems, `freopen` can often not be used. But to make testing easier:
 
-Run passing your inpur and output streams:
+Run passing your input and output streams:
 
 `$ ./a.out input myoutput`
 
