@@ -47,6 +47,7 @@ A list of people who I personally know and who are way above me on Competitive P
 * Lucas Lima http://uhunt.felix-halim.net/id/148413
 * Leonardo Andrade http://uhunt.felix-halim.net/id/164355
 * Duhan Caraciolo http://uhunt.felix-halim.net/id/148394
+* Danilo Ribeiro http://uhunt.felix-halim.net/id/77968
 * Mateus Moury http://uhunt.felix-halim.net/id/148819
 
 ## Copyright
