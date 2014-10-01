@@ -48,6 +48,9 @@ A list of people who I personally know and who are way above me on Competitive P
 * Leonardo Andrade http://uhunt.felix-halim.net/id/164355
 * Duhan Caraciolo http://uhunt.felix-halim.net/id/148394
 * Danilo Ribeiro http://uhunt.felix-halim.net/id/77968
+* Davi Duarte http://uhunt.felix-halim.net/id/41784
+* Luiz Afonso http://uhunt.felix-halim.net/id/66996
+* Gustavo Stor http://uhunt.felix-halim.net/id/98598
 * Mateus Moury http://uhunt.felix-halim.net/id/148819
 
 ## Copyright
