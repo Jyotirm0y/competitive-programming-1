@@ -39,6 +39,12 @@ Compare:
 
 This repo also contains (or may contain) a few problems from other Online Judges, like SPOJ and ACM/ICPC.
 
+## Extra Resources
+
+* Maratona de Programação (Brazil) http://maratona.ime.usp.br
+* uDebug - inputs and outputs for UVa problems http://www.udebug.com
+* UVa Problem Hints http://www.outsbook.com/uva
+
 ## Standing on the Shoulder of Giants
 
 A list of people who I personally know and who are way above me on Competitive Programming and knowledge in Algorithms
