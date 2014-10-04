@@ -44,6 +44,7 @@ This repo also contains (or may contain) a few problems from other Online Judges
 * Maratona de Programação (Brazil) http://maratona.ime.usp.br
 * uDebug - inputs and outputs for UVa problems http://www.udebug.com
 * UVa Problem Hints http://www.outsbook.com/uva
+* Maratonando http://www.maratonando.com.br
 
 ## Standing on the Shoulder of Giants
 
