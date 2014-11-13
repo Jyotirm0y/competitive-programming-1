@@ -40,6 +40,30 @@ Compare:
 
 This repo also contains (or may contain) a few problems from other Online Judges, like SPOJ and ACM/ICPC.
 
+### URI Online Judge
+
+more info to come...
+
+### TopCoder
+
+more info to come...
+
+### Codeforces
+
+more info to come...
+
+### SPOJ
+
+more info to come...
+
+### Project Euler
+
+This repo also contains my solutions to many of the problems from [Project Euler], which are inside the directory called `project-euler`.
+
+![Rodrigo Alves on Project Euler](http://projecteuler.net/profile/rodrigoalves.png)
+
+* My username over there is __rodrigoalves__
+
 ## Extra Resources
 
 * Maratona de Programação (Brazil) http://maratona.ime.usp.br
@@ -65,5 +89,6 @@ A list of people who I personally know and who are way above me on Competitive P
 
  © 2013-2014 Rodrigo Alves
 
-[University of Valladolid Online Judge]: http://uva.onlinejudge.org/
+[University of Valladolid Online Judge]: http://uva.onlinejudge.org
 [new Issue]: https://github.com/rodrigoalvesvieira/UVa/issues/new
+[Project Euler]: http://projecteuler.net
