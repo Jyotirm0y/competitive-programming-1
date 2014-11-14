@@ -1,7 +1,7 @@
 // author: Rodrigo Alves
 // Judge: URI
 // problem: Simple Sort
-// url: https://www.urionlinejudge.com.br/judge/en/problems/view/1004
+// url: https://www.urionlinejudge.com.br/judge/en/problems/view/1042
 // status: AC
 #include <cstdio>
 #include <cmath>
