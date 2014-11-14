@@ -58,7 +58,7 @@ more info to come...
 
 ### Project Euler
 
-This repo also contains my solutions to many of the problems from [Project Euler], which are inside the directory called `project-euler`.
+This repo also contains my solutions to many of the problems from [Project Euler].
 
 ![Rodrigo Alves on Project Euler](http://projecteuler.net/profile/rodrigoalves.png)
 
