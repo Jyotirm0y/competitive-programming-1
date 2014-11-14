@@ -8,8 +8,6 @@ long long abs(long long n)
 
 int main()
 {
-    freopen("entrada-warrior.txt", "r", stdin);
-
     long long N, M;
 
     while(scanf("%lld %lld", &N, &M) == 2) {
