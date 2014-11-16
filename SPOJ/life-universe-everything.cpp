@@ -1,5 +1,7 @@
+// author: Rodrigo Alves
+// problem: Life, Universe and Everything
 // url: http://www.spoj.com/problems/TEST/
-
+// status: AC
 #include <cstdio>
 #include <iostream>
 #include <cstring>
