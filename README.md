@@ -40,6 +40,10 @@ Compare:
 
 This repo also contains (or may contain) a few problems from other Online Judges, like SPOJ and ACM/ICPC.
 
+### ACM-ICPC Live Archive
+
+My username there is **rodrigoalves**.
+
 ### URI Online Judge
 
 more info to come...
