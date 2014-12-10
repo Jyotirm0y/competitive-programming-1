@@ -13,7 +13,7 @@ My solutions to many of the problems on the [University of Valladolid Online Jud
 Preferably my solutions are written in C++. Whenever I find myself unable to solve
 some problem in plain C++, I switch to Java.
 
-Some of the solutions may contain code from the book [Competitive Programming 3], by
+Some of the solutions may contain code from the book [Competitive Programming 3], by Steven and Felix Halim.
 
 ## ICPC Veredicts
 
@@ -44,7 +44,7 @@ This repo also contains (or may contain) a few problems from other Online Judges
 
 ### ACM-ICPC Live Archive
 
-My username there is **rodrigoalves**.
+Handle: **rodrigoalves**
 
 ### URI Online Judge
 
@@ -60,7 +60,7 @@ Handle: **rodrigoalvesvieira**
 
 ### SPOJ
 
-more info to come...
+Profile: **[rodrigoalves](http://www.spoj.com/users/rodrigoalves)**
 
 ### SPOJ Brasil
 
