@@ -88,6 +88,9 @@ A list of people who I personally know and who are way above me on Competitive P
 * Luiz Afonso http://uhunt.felix-halim.net/id/66996
 * Gustavo Stor http://uhunt.felix-halim.net/id/98598
 * Mateus Moury http://uhunt.felix-halim.net/id/148819
+* Marlon Reghert http://uhunt.felix-halim.net/id/355345
+* Tomer Simis http://uhunt.felix-halim.net/id/614884
+* Victor Monteiro http://uhunt.felix-halim.net/id/460596
 
 ## Copyright
 
