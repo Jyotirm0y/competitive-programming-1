@@ -46,15 +46,15 @@ My username there is **rodrigoalves**.
 
 ### URI Online Judge
 
-more info to come...
+Profile: **[rodrigoalves](https://www.urionlinejudge.com.br/judge/en/profile/34294)**
 
 ### TopCoder
 
-more info to come...
+Handle: **rodrigoalves94**
 
 ### Codeforces
 
-more info to come...
+Handle: **rodrigoalvesvieira**
 
 ### SPOJ
 
