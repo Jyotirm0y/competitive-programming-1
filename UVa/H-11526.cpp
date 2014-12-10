@@ -1,37 +1,25 @@
-// author: Rodrigo Alves
 // problem: H(n)
 // url: http://uva.onlinejudge.org/external/115/p11526.pdf
 // status: AC
-#include <cstdio>
-#include <iostream>
-#include <cstring>
-#include <string>
-#include <vector>
-#include <algorithm>
-#include <set>
-#include <map>
-#include <cmath>
+#include <bits/stdc++.h>
 using namespace std;
 
-#define fr(a, b, c) for(int a = b; a < c; a++)
-#define rep(a, b) fr(a, 0, b)
+long long H(int n){
+  if (n == 0) return 0;
+  long long ans = 0;
+  int r = (int) floor(sqrt(n));
 
-typedef long long ll;
-typedef pair<int,int> pii;
-
-long long H(int n)
-{
-  if (n == 0) return n;
-  long long length = (long long) sqrt(n), lastQuo, calc = n, sum = 0;
-
-  for (int i = 1; i <= length; i++) {
-    sum += n/i;
-    sum += (calc - n/i) * (i - 1);
-    calc = n/i;
+  if (r * r == n) {
+    ans += n/r;
+    --r;
   }
 
-  if (calc > length) sum += length;
-  return sum;
+  for (int i = 1; i <= r; ++i) {
+    ans += n / i;
+    ans += max(0, n / i-r);
+  }
+
+  return ans;
 }
 
 int main()
