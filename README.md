@@ -62,6 +62,10 @@ Handle: **rodrigoalvesvieira**
 
 more info to come...
 
+### SPOJ Brasil
+
+Profile: **[rodrigoalves](http://br.spoj.com/users/rodrigoalves)**
+
 ### Project Euler
 
 This repo also contains my solutions to many of the problems from [Project Euler].
