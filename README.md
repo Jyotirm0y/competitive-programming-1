@@ -1,4 +1,4 @@
-# UVa
+# Competitive Programming
 
 My solutions to many of the problems on the [University of Valladolid Online Judge]
 
@@ -12,6 +12,8 @@ My solutions to many of the problems on the [University of Valladolid Online Jud
 
 Preferably my solutions are written in C++. Whenever I find myself unable to solve
 some problem in plain C++, I switch to Java.
+
+Some of the solutions may contain code from the book [Competitive Programming 3], by
 
 ## ICPC Veredicts
 
@@ -99,3 +101,4 @@ A list of people who I personally know and who are way above me on Competitive P
 [University of Valladolid Online Judge]: http://uva.onlinejudge.org
 [new Issue]: https://github.com/rodrigoalvesvieira/UVa/issues/new
 [Project Euler]: http://projecteuler.net
+[Competitive Programming 3]: https://sites.google.com/site/stevenhalim/home
