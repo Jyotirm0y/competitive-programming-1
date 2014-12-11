@@ -13,6 +13,7 @@ private:
 
 public:
   UnionFind(int N) {
+    N = N+1;
     setSize.assign(N, 1); numSets = N; rank.assign(N, 0); p.assign(N, 0);
     for (int i = 0; i < N; i++) p[i] = i;
   }
@@ -66,7 +67,7 @@ int main()
   sort(Edgelist.begin(), Edgelist.end());
 
   mst_cost = 0;
-  UnionFind UF(V);
+  UnionFind UF(N);
 
   for (int i = 0; i < M; i++) {
     if (UF.numDisjointSets() == 1) break;
