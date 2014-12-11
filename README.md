@@ -2,29 +2,12 @@
 
 My solutions to many of the problems on the [University of Valladolid Online Judge]
 
-* Username: **rodrigoalves**
-* uHunt profile: http://uhunt.felix-halim.net/id/207816
-* UVa profile: http://uva.onlinejudge.org/index.php?option=onlinejudge&Itemid=20&page=show_authorstats&userid=207816
-* URI profile: https://www.urionlinejudge.com.br/judge/en/profile/34294
-* Good problems: http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=3
-
 ## Code
 
 Preferably my solutions are written in C++. Whenever I find myself unable to solve
 some problem in plain C++, I switch to Java.
 
 Some of the solutions may contain code from the book [Competitive Programming 3], by Steven and Felix Halim.
-
-## ICPC Veredicts
-
-| Code   | Description                        |
-| ------ | :---------------------------------:|
-| AC     | Accepted                           |
-| PE     | Presentation Error                 |
-| WA     | Wrong Answer                       |
-| TLE    | Time Limit Exceeded                |
-| MLE    | Memory Limit Exceeded              |
-| RTE    | Run Time Error                     |
 
 ## Testing
 
@@ -42,29 +25,17 @@ Compare:
 
 This repo also contains (or may contain) a few problems from other Online Judges, like SPOJ and ACM/ICPC.
 
-### ACM-ICPC Live Archive
+### My profile on all Online Judges
 
-Handle: **rodrigoalves**
-
-### URI Online Judge
-
-Profile: **[rodrigoalves](https://www.urionlinejudge.com.br/judge/en/profile/34294)**
-
-### TopCoder
-
-Handle: **rodrigoalves94**
-
-### Codeforces
-
-Handle: **rodrigoalvesvieira**
-
-### SPOJ
-
-Profile: **[rodrigoalves](http://www.spoj.com/users/rodrigoalves)**
-
-### SPOJ Brasil
-
-Profile: **[rodrigoalves](http://br.spoj.com/users/rodrigoalves)**
+| Online Judge      | Profile                                                                                                                   |
+| ------------------| :------------------------------------------------------------------------------------------------------------------------:|
+| UVa               | **[rodrigoalves](http://uva.onlinejudge.org/index.php?option=onlinejudge&Itemid=20&page=show_authorstats&userid=207816)** |
+| ACM-ICPC          | **rodrigoalves**                                                                                                          |
+| URI               | **[rodrigoalves](https://www.urionlinejudge.com.br/judge/en/profile/34294)**                                              |
+| TopCoder          | **rodrigoalves94**                                                                                                        |
+| Codeforces        | **rodrigoalvesvieira**                                                                                                    |
+| SPOJ              | **[rodrigoalves](http://www.spoj.com/users/rodrigoalves)**                                                                |
+| SPOJ Brasil       | **[rodrigoalves](http://br.spoj.com/users/rodrigoalves)**                                                                 |
 
 ### Project Euler
 
