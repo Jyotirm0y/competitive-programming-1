@@ -3,13 +3,7 @@
 // problem: Fibonacci Array
 // url: https://www.urionlinejudge.com.br/judge/en/problems/view/11176
 // status: AC
-#include <cstdio>
-#include <cmath>
-#include <iostream>
-#include <string>
-#include <vector>
-#include <map>
-#include <algorithm>
+#include <bits/stdc++.h>
 using namespace std;
 
 int main()

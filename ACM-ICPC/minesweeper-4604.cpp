@@ -2,15 +2,7 @@
 // problem: Minesweeper
 // url: https://icpcarchive.ecs.baylor.edu/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=2605
 // status: AC
-#include <cstdio>
-#include <iostream>
-#include <cstring>
-#include <string>
-#include <vector>
-#include <algorithm>
-#include <set>
-#include <map>
-#include <cmath>
+#include <bits/stdc++.h>
 using namespace std;
 
 char matrix[110][110];

@@ -3,13 +3,7 @@
 // problem: Even, Odd, Positive and Negative
 // url: https://www.urionlinejudge.com.br/judge/en/problems/view/1066
 // status: AC
-#include <cstdio>
-#include <cmath>
-#include <iostream>
-#include <string>
-#include <vector>
-#include <map>
-#include <algorithm>
+#include <bits/stdc++.h>
 using namespace std;
 
 int main()

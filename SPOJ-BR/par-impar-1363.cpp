@@ -2,16 +2,7 @@
 // problem: Par ou Ímpar
 // url: http://br.spoj.com/problems/PAR/
 // status: AC
-#include <cstdio>
-#include <iostream>
-#include <cstring>
-#include <string>
-#include <vector>
-#include <algorithm>
-#include <set>
-#include <map>
-#include <cmath>
-
+#include <bits/stdc++.h>
 using namespace std;
 
 int main()

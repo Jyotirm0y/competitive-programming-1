@@ -2,7 +2,7 @@
 // problem: Binary Search Tree
 // url: https://www.urionlinejudge.com.br/judge/en/problems/view/1195
 // type: Data Structures
-#include <stdio.h>
+#include <bits/stdc++.h>
 
 typedef struct bstree {
     int value;

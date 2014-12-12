@@ -2,15 +2,7 @@
 // problem: Conversions
 // url: http://www.spoj.com/problems/GNY07B/
 // status: AC
-#include <cstdio>
-#include <iostream>
-#include <cstring>
-#include <string>
-#include <vector>
-#include <algorithm>
-#include <set>
-#include <map>
-#include <cmath>
+#include <bits/stdc++.h>
 using namespace std;
 
 pair<double, string> convert(double v, string str)

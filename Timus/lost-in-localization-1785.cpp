@@ -2,16 +2,7 @@
 // problem: Lost in Localization
 // url: http://acm.timus.ru/print.aspx?space=1&num=1785
 // status: AC
-#include <cstdio>
-#include <iostream>
-#include <cstring>
-#include <string>
-#include <vector>
-#include <algorithm>
-#include <set>
-#include <map>
-#include <cmath>
-
+#include <bits/stdc++.h>
 using namespace std;
 
 string answer(int n)
