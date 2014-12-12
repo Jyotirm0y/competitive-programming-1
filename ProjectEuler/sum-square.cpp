@@ -1,8 +1,7 @@
 // author: Rodrigo Alves
 // problem: Sum square difference
 // url: http://projecteuler.net/problem=6
-
-#include <cstdio>
+#include <bits/stdc++.h>
 
 int main()
 {

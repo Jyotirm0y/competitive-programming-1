@@ -1,9 +1,7 @@
 // author: Rodrigo Alves
 // problem: Distinct powers
 // url: http://projecteuler.net/problem=29
-
-#include <cstdio>
-#include <vector>
+#include <bits/stdc++.h>
 
 int main()
 {

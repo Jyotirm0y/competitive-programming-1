@@ -1,7 +1,7 @@
 // author: Rodrigo Alves
 // problem: Driving Range
 // url: http://uva.onlinejudge.org/external/118/11857.html
-// status: AC
+// status: WA
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -20,50 +20,44 @@ private:
 
 public:
   UnionFind(int N) {
-    N = N+1;
     setSize.assign(N, 1); numSets = N; rank.assign(N, 0); p.assign(N, 0);
     for (int i = 0; i < N; i++) p[i] = i;
   }
 
-  int findSet(int i) {
-    return (p[i] == i) ? i : (p[i] = findSet(p[i]));
-  }
+  int findSet(int i) { return (p[i] == i) ? i : (p[i] = findSet(p[i])); }
 
-  bool isSameSet(int i, int j) {
-    return findSet(i) == findSet(j);
-  }
+  bool isSameSet(int i, int j) { return findSet(i) == findSet(j); }
 
   void unionSet(int i, int j) {
     if (!isSameSet(i, j)) {
       numSets--;
       int x = findSet(i), y = findSet(j);
 
-      // rank is used to keep the tree short
       if (rank[x] > rank[y]) {
         p[y] = x; setSize[x] += setSize[y];
       } else {
         p[x] = y; setSize[y] += setSize[x];
-
         if (rank[x] == rank[y]) rank[y]++;
       }
     }
   }
-
-  int numDisjointSets() { return numSets; }
 };
 
 vector<vii> AdjList;
 vi visited;
 
-void dfs(int u)
+int dfs(int u, int vis)
 {
+  // printf("vis eh %d\n", vis);
   visited[u] = VISITED;
 
   FOR(i, AdjList[u].size()) {
     ii v = AdjList[u][i];
-
-    if (visited[v.first] == UNVISITED) dfs(v.first);
+    if (visited[v.first] == UNVISITED) dfs(v.first, ++vis);
   }
+
+  printf("vis eh %d\n", vis);
+  return vis;
 }
 
 int main()
@@ -84,7 +78,7 @@ int main()
       Edgelist.push_back(make_pair(w, ii(U, V)));
     }
 
-    dfs(0);
+    int v = dfs(0, 0);
 
     FOR (i, n) {
       if (!visited[i]) {
@@ -93,6 +87,8 @@ int main()
       }
     }
 
+    printf("%d visitados\n", v);
+
     if (possible) {
       answer = 0;
       sort(Edgelist.begin(), Edgelist.end());
@@ -100,13 +96,12 @@ int main()
       UnionFind UF(n);
 
       for (int i = 0; i < Edgelist.size(); i++) {
-        if (UF.numDisjointSets() == 1) break;
-
         pair<int, ii> front = Edgelist[i];
 
         if (!UF.isSameSet(front.second.first, front.second.second)) {
           if (front.first > answer) answer = front.first;
           UF.unionSet(front.second.first, front.second.second);
+          Edgelist.pop_back();
         }
       }
       printf("%d\n", answer);
