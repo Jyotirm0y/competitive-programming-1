@@ -46,18 +46,15 @@ public:
 vector<vii> AdjList;
 vi visited;
 
-int dfs(int u, int vis)
+void dfs(int u)
 {
-  // printf("vis eh %d\n", vis);
+  if (visited[u]) return;
   visited[u] = VISITED;
 
   FOR(i, AdjList[u].size()) {
     ii v = AdjList[u][i];
-    if (visited[v.first] == UNVISITED) dfs(v.first, ++vis);
+    if (visited[v.first] == UNVISITED) dfs(v.first);
   }
-
-  printf("vis eh %d\n", vis);
-  return vis;
 }
 
 int main()
@@ -75,10 +72,13 @@ int main()
     while (m--) {
       scanf("%d %d %d", &U, &V, &w);
       AdjList[U].push_back(ii(V, w));
+      AdjList[V].push_back(ii(U, w));
+
       Edgelist.push_back(make_pair(w, ii(U, V)));
+      Edgelist.push_back(make_pair(w, ii(V, U)));
     }
 
-    int v = dfs(0, 0);
+    dfs(0);
 
     FOR (i, n) {
       if (!visited[i]) {
@@ -86,8 +86,6 @@ int main()
         break;
       }
     }
-
-    printf("%d visitados\n", v);
 
     if (possible) {
       answer = 0;
