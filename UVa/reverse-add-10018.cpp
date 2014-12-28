@@ -32,8 +32,8 @@ int main()
     scanf("%d", &P);
     counter = 0;
 
-    while (!is_palindrome(P + reverse(P))) {
-      P = P + reverse(P);
+    while (!is_palindrome(P)) {
+      P += reverse(P);
       counter++;
     }
 
