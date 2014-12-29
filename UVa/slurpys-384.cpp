@@ -1,7 +1,7 @@
 // author: Rodrigo Alves
 // problem: Slurpys
 // url: http://uva.onlinejudge.org/external/3/384.html
-// status: AC
+// status: WA
 #include <bits/stdc++.h>
 using namespace std;
 
