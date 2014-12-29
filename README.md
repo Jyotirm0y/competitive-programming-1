@@ -70,7 +70,7 @@ A list of people who I personally know and who are way above me on Competitive P
 
 ## Copyright
 
- © 2013-2014 Rodrigo Alves
+ © 2013-2015 Rodrigo Alves
 
 [University of Valladolid Online Judge]: http://uva.onlinejudge.org
 [new Issue]: https://github.com/rodrigoalvesvieira/UVa/issues/new
