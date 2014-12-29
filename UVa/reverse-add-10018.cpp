@@ -5,11 +5,11 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-int reverse(int num)
+long long reverse(long long num)
 {
-  int d = 0, reversed = 0;
+  long long d = 0, reversed = 0;
 
-  for (int i = num; i != 0; i /= 10) {
+  for (long long i = num; i != 0; i /= 10) {
     d = i % 10;
     reversed *= 10;
     reversed += d;
@@ -18,18 +18,18 @@ int reverse(int num)
   return reversed;
 }
 
-bool is_palindrome(int n)
+bool is_palindrome(long long n)
 {
   return n == reverse(n);
 }
 
 int main()
 {
-  int N, P, counter;
-  scanf("%d", &N);
+  long long N, P, counter;
+  scanf("%lld", &N);
 
   while (N--) {
-    scanf("%d", &P);
+    scanf("%lld", &P);
     counter = 0;
 
     while (!is_palindrome(P)) {
@@ -37,7 +37,7 @@ int main()
       counter++;
     }
 
-    printf("%d %d\n", counter, reverse(P));
+    printf("%lld %lld\n", counter, reverse(P));
   }
 
   return 0;
