@@ -50,6 +50,7 @@ This repo also contains my solutions to many of the problems from [Project Euler
 * Maratona de Programação (Brazil) http://maratona.ime.usp.br
 * uDebug - inputs and outputs for UVa problems http://www.udebug.com
 * UVa Problem Hints http://www.outsbook.com/uva
+* Algorithmist http://www.algorithmist.com/index.php/Main_Page
 * Maratonando http://www.maratonando.com.br
 
 ## Standing on the Shoulder of Giants
