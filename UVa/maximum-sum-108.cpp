@@ -9,17 +9,30 @@ using namespace std;
 
 int main()
 {
-  int N;
+  int N, answer, subRect;
   int matrix[101][101];
-  long long answer = 0;
 
   scanf("%d", &N);
 
-  FOR (i, N) {
-    for (int j = 0; j < N; j++) scanf("%d", &matrix[i][j]);
+  FOR (i, N) FOR (j, N) {
+    	scanf("%d", &matrix[i][j]);
+  		if (j > 0) matrix[i][j] += matrix[i][j - 1];
   }
 
-  printf("%lld\n", answer);
+  FOR (i, N) {
+  	for (int r = i; r < N; r++) {
+  		subRect = 0;
 
+  		FOR (row, N) {
+  			if (i > 0) subRect += matrix[row][r] - matrix[row][i - 1];
+      	else subRect += matrix[row][r];
+
+      	if (subRect < 0) subRect = 0;
+      	answer = max(answer, subRect);
+  		}
+  	}
+  }
+
+  printf("%d\n", answer);
   return 0;
 }
