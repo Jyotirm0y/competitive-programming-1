@@ -21,6 +21,17 @@ Compare:
 
 `$ diff myoutput input`
 
+### Running Java Code
+
+Simply go to the problem directory and run:
+
+```shell
+$ javac -sourcepath .. Main.java
+$ java Main
+```
+
+Be happy!
+
 ## Problems from other Online Judges
 
 This repo also contains (or may contain) a few problems from other Online Judges, like SPOJ and ACM/ICPC.
