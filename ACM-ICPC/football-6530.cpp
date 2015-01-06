@@ -10,51 +10,40 @@ using namespace std;
 #define DRAW 1
 #define LOSS 0
 
-typedef vector<int> vi;
+typedef vector<long long> vi;
 
 int main()
 {
-  int N, G, S, R, total, aux;
+  long long N, G, S, R, total;
 
-  while (scanf("%d %d", &N, &G) != EOF) {
+  while (scanf("%lld %lld", &N, &G) != EOF) {
     total = 0;
-    vi goals;
-    vi results;
+    vi matches;
 
     while (N--) {
-      scanf("%d %d", &S, &R);
+      scanf("%lld %lld", &S, &R);
 
-      if (S > R) {
-        total += WIN;
-      } else if (S == R) {
-        goals.push_back(DRAW);
-      } else {
-        goals.push_back(LOSS);
-        results.push_back(S - R);
-      }
-    }
-
-    sort(goals.begin(), goals.end());
-
-    for (int i = goals.size() - 1; i >= 0 && G; i--) {
-      if (goals[i] == DRAW) {
-        total += WIN;
-        goals[i] = WIN;
-        G--;
-      } else { // LOSS
-        aux = (results[i] * -1) + 1;
-
-        if ((G - aux) >= 0) {
+      if (S == R) {
+        if (G > 0) {
+          G--;
           total += WIN;
-          G -= aux;
-          goals[i] = WIN;
-        }
-      }
+        } else total++;
+      } else if (S > R) total += WIN;
+      else if ((S < R) & (G > 0)) matches.push_back(S - R);
     }
 
-    FOR (i, goals.size()) if (goals[i] == DRAW) total += goals[i];
+    sort(matches.begin(), matches.end());
 
-    printf("%d\n", total);
+    for (int i = matches.size() - 1; i >= 0 && G; i--) {
+      G += matches[i];
+
+      if (G > 0) {
+        G--;
+        total += WIN;
+      } else if (G == 0) total++;
+    }
+
+    printf("%lld\n", total);
   }
 
   return 0;
