@@ -10,18 +10,18 @@ using namespace std;
 #define DRAW 1
 #define LOSS 0
 
-typedef vector<long long> vi;
+typedef vector<int> vi;
 
 int main()
 {
-  long long N, G, S, R, total;
+  int N, G, S, R, total;
 
-  while (scanf("%lld %lld", &N, &G) != EOF) {
+  while (scanf("%d %d", &N, &G) != EOF) {
     total = 0;
     vi matches;
 
     while (N--) {
-      scanf("%lld %lld", &S, &R);
+      scanf("%d %d", &S, &R);
 
       if (S == R) {
         if (G > 0) {
@@ -43,7 +43,7 @@ int main()
       } else if (G == 0) total++;
     }
 
-    printf("%lld\n", total);
+    printf("%d\n", total);
   }
 
   return 0;
