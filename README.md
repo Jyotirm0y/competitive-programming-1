@@ -1,6 +1,6 @@
 # Competitive Programming
 
-My solutions to many of the problems on the [University of Valladolid Online Judge]
+My solutions to many of the programming (Computer Science) problems on several online judges, including [UVa], [ACM/ICPC], [TopCoder], [Codeforces], [URI], [SPOJ] and [SPOJ Brasil].
 
 ## Code
 
@@ -88,3 +88,12 @@ A list of people who I personally know and who are way above me on Competitive P
 [new Issue]: https://github.com/rodrigoalvesvieira/UVa/issues/new
 [Project Euler]: http://projecteuler.net
 [Competitive Programming 3]: https://sites.google.com/site/stevenhalim/home
+
+[UVa]: http://uva.onlinejudge.org
+[ACM/ICPC]: https://icpcarchive.ecs.baylor.edu
+[TopCoder]: http://www.topcoder.com
+[Codeforces]: http://codeforces.com
+[URI]: https://www.urionlinejudge.com.br/judge/en/categories
+[SPOJ]: http://www.spoj.com
+[SPOJ Brasil]: http://br.spoj.com
+[even Project Euler]: https://projecteuler.net
