@@ -38,7 +38,7 @@ Be happy!
 | ACM-ICPC          | **rodrigoalves**                                                                                                          |
 | URI               | **[rodrigoalves](https://www.urionlinejudge.com.br/judge/en/profile/34294)**                                              |
 | TopCoder          | **rodrigoalves94**                                                                                                        |
-| Codeforces        | **rodrigoalvesvieira**                                                                                                    |
+| Codeforces        | **[rodrigoalvesvieira](http://codeforces.com/profile/rodrigoalvesvieira)**                                                                                                    |
 | SPOJ              | **[rodrigoalves](http://www.spoj.com/users/rodrigoalves)**                                                                |
 | SPOJ Brasil       | **[rodrigoalves](http://br.spoj.com/users/rodrigoalves)**                                                                 |
 
