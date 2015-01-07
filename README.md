@@ -11,15 +11,13 @@ Some of the solutions may contain code from the book [Competitive Programming 3]
 
 ## Testing
 
-For UVa problems, `freopen` can often not be used. But to make testing easier:
-
 Run passing your input and output streams:
 
 `$ ./a.out input myoutput`
 
 Compare:
 
-`$ diff myoutput input`
+`$ diff myoutput official-output`
 
 ### Running Java Code
 
@@ -31,10 +29,6 @@ $ java Main
 ```
 
 Be happy!
-
-## Problems from other Online Judges
-
-This repo also contains (or may contain) a few problems from other Online Judges, like SPOJ and ACM/ICPC.
 
 ### My profile on all Online Judges
 
