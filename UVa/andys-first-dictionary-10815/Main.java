@@ -1,6 +1,7 @@
-import java.util.Arrays;
-import java.util.HashMap;
 import java.util.Scanner;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.HashSet;
 
 /**
 * problem: Andy's First Dictionary
@@ -9,51 +10,41 @@ import java.util.Scanner;
 * status: AC
 */
 public class Main {
+  private static int ZERO = 0;
 
-  public static void main(String[] args) {
+  public static void main(String[] args)  {
     Scanner in = new Scanner(System.in);
+    String line, aux;
+    char current;
 
-    String text, aux, current, output;
-    String[] lines = new String[5001], splitted;
-    String[] result = new String[5001];
-
-    int counter = 0, resultIndex = 0;
-    char helper;
-
-    HashMap<String, Boolean> map = new HashMap<String, Boolean>();
+    HashSet<String> dictionary = new HashSet<String>();
+    ArrayList<String> list = new ArrayList<String>();
 
     while (in.hasNextLine()) {
-      text = in.nextLine();
-      lines[counter++] = text;
-    }
+      line = in.nextLine();
+      aux = "";
 
-    for (int i = 0; i < counter; i++) {
-      current = lines[i];
-      output = "";
+      for (int i = ZERO; i < line.length(); i++) {
+        current = line.charAt(i);
 
-      if (!current.isEmpty()) {
-
-        for (int j = 0; j < current.length(); j++) {
-          helper = current.charAt(j);
-          if (helper == ' ' || Character.isLetter(helper)) output += helper;
-          else output += ' ';
+        if (Character.isLetter(current)) {
+          aux += current;
+        } else {
+          aux = aux.toLowerCase();
+          if (aux.length() > ZERO) dictionary.add(aux);
+          aux = "";
         }
+      }
 
-        splitted = output.split(" ");
-
-        for (String str: splitted) {
-          aux = str.toLowerCase().replaceAll("[^a-zA-Z]", "");
-
-          if (map.containsKey(aux) == false) {
-            map.put(aux, true);
-            result[resultIndex++] = aux;
-          }
-        }
+      if (aux.length() > ZERO) {
+        aux = aux.toLowerCase();
+        dictionary.add(aux);
       }
     }
 
-    Arrays.sort(result, 0, resultIndex);
+    list.addAll(dictionary);
+    Collections.sort(list);
 
-    for (int i = 0; i < resultIndex; i++) System.out.println(result[i]);
+    for (int i = ZERO; i < list.size(); i++) System.out.println(list.get(i));
   }
 }
