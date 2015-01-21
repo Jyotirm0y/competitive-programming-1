@@ -2,11 +2,7 @@
 // problem: Goldbach's Conjecture
 // url: http://uva.onlinejudge.org/index.php?option=onlinejudge&page=show_problem&problem=484
 // status: AC
-
-#include <cstdio>
-#include <bitset>
-#include <map>
-#include <vector>
+#include <bits/stdc++.h>
 using namespace std;
 
 bitset<10000010> bs;

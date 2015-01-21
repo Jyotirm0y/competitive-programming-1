@@ -2,9 +2,7 @@
 // problem: All in All
 // url: http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=24&problem=1281&mosmsg=Submission+received+with+ID+9231533
 // status: AC
-#include <cstdio>
-#include <iostream>
-#include <string>
+#include <bits/stdc++.h>
 using namespace std;
 
 int main()

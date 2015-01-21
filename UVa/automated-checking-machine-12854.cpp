@@ -3,16 +3,7 @@
 // url: http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=4719
 // type: Ad hoc
 // status: AC
-#include <cstdio>
-#include <iostream>
-#include <cstring>
-#include <string>
-#include <vector>
-#include <algorithm>
-#include <set>
-#include <map>
-#include <cmath>
-
+#include <bits/stdc++.h>
 using namespace std;
 
 int A[5], B[5];

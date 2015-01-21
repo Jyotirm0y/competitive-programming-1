@@ -2,7 +2,7 @@
 // problem: Brick Wall Patterns
 // url: http://uva.onlinejudge.org/index.php?option=onlinejudge&page=show_problem&problem=841
 // status: AC
-#include <cstdio>
+#include <bits/stdc++.h>
 
 long long table[51];
 

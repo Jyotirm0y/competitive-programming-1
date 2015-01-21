@@ -2,8 +2,7 @@
 // problem: Age Sort
 // url: http://uva.onlinejudge.org/index.php?option=onlinejudge&Itemid=99999999&page=show_problem&category=&problem=2457&mosmsg=Submission+received+with+ID+12609741
 // status: AC
-#include <stdio.h>
-#include <algorithm>
+#include <bits/stdc++.h>
 using namespace std;
 
 int array[2010000];

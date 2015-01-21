@@ -2,7 +2,7 @@
 // problem: Emoogle Balance
 // url: http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=3431
 // status: AC
-#include <cstdio>
+#include <bits/stdc++.h>
 
 int main()
 {
