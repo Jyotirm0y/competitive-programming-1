@@ -2,9 +2,7 @@
 // problem: Parking (optimal parking)
 // url: http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=2349
 // status: AC
-#include <cstdio>
-#include <algorithm>
-#include <vector>
+#include <bits/stdc++.h>
 using namespace std;
 
 int main()
@@ -14,7 +12,7 @@ int main()
     scanf("%d", &count);
     int stores, st, i = 0;
 
-    while(count--) {
+    while (count--) {
         scanf("%d", &stores);
         while(stores--) {
             scanf("%d", &st);

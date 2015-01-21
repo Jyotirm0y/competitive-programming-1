@@ -2,15 +2,8 @@
 // problem: Virtual Friends
 // url: http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=2498
 // status: AC
-
-#include <iostream>
-#include <cstdio>
-#include <string>
-#include <vector>
-#include <map>
-
+#include <bits/stdc++.h>
 #define f(x) (x?x:1)
-
 using namespace std;
 
 map<string, string> graph;

@@ -2,7 +2,7 @@
 // problem: Bafana Bafana
 // url: http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=2905
 // status: AC
-#include <stdio.h>
+#include <bits/stdc++.h>
 
 int numbers[30];
 

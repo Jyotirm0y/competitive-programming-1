@@ -2,7 +2,7 @@
 // problem: TEX Quotes
 // url: http://uva.onlinejudge.org/index.php?option=onlinejudge&page=show_problem&problem=208
 // status: AC
-#include <cstdio>
+#include <bits/stdc++.h>
 
 int main()
 {

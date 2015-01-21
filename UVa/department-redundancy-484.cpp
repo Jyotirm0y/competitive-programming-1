@@ -2,9 +2,7 @@
 // problem: The Department of Redundancy Department
 // url: http://uva.onlinejudge.org/index.php?option=onlinejudge&page=show_problem&problem=425
 // status: AC
-#include <cstdio>
-#include <vector>
-#include <map>
+#include <bits/stdc++.h>
 using namespace std;
 
 vector<int> order;

@@ -2,9 +2,7 @@
 // problem: Beat the Spread
 // url: http://uva.onlinejudge.org/external/108/10812.html
 // status: AC
-#include <cstdio>
-#include <cmath>
-#include <map>
+#include <bits/stdc++.h>
 using namespace std;
 
 int main()

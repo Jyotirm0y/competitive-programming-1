@@ -2,7 +2,7 @@
 // problem: Nice Licence Plates
 // url: http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=4280
 // status: AC
-#include <stdio.h>
+#include <bits/stdc++.h>
 
 int abs(int n)
 {

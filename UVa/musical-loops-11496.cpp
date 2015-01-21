@@ -3,7 +3,7 @@
 // url: http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=2491
 // type: Ad hoc
 // status: AC
-#include <stdio.h>
+#include <bits/stdc++.h>
 using namespace std;
 
 int points[10100];

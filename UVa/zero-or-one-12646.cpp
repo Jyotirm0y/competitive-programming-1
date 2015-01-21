@@ -2,16 +2,7 @@
 // problem: Zero or One
 // url: http://uva.onlinejudge.org/external/126/12646.pdf
 // status: AC
-#include <cstdio>
-#include <iostream>
-#include <cstring>
-#include <string>
-#include <vector>
-#include <algorithm>
-#include <set>
-#include <map>
-#include <cmath>
-
+#include <bits/stdc++.h>
 using namespace std;
 
 int main()

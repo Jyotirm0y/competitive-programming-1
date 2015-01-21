@@ -2,7 +2,7 @@
 // problem: Counting Stars
 // url: http://uva.onlinejudge.org/index.php?option=onlinejudge&page=show_problem&problem=2201
 // status: AC
-#include <stdio.h>
+#include <bits/stdc++.h>
 
 int main()
 {

@@ -4,6 +4,7 @@ import java.util.Scanner;
 /**
  * problem: MODEX
  * url: https://icpcarchive.ecs.baylor.edu/external/41/4104.pdf
+ * url: http://uva.onlinejudge.org/external/12/1230.html
  * authors: Rodrigo Alves
  * status: AC
  */
