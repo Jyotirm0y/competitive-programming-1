@@ -2,6 +2,8 @@
 
 My solutions to many of the programming (Computer Science) problems on several online judges, including [UVa], [ACM/ICPC], [TopCoder], [Codeforces], [URI], [SPOJ] and [SPOJ Brasil].
 
+![Competitive](https://i.imgur.com/sUO1nX0.jpg)
+
 ## Code
 
 Preferably my solutions are written in C++. Whenever I find myself unable to solve
