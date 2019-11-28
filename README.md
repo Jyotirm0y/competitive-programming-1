@@ -37,13 +37,14 @@ Be happy!
 | Online Judge      | Profile                                                                                                                   |
 | ------------------| :------------------------------------------------------------------------------------------------------------------------:|
 | UVa               | **[rodrigoalves](http://uva.onlinejudge.org/index.php?option=onlinejudge&Itemid=20&page=show_authorstats&userid=207816)** |
-| ACM-ICPC          | **rodrigoalves**                                                                                                          |
-| URI               | **[rodrigoalves](https://www.urionlinejudge.com.br/judge/en/profile/34294)**                                              |
-| TopCoder          | **rodrigoalves94**                                                                                                        |
+| ACM-ICPC          | **rodrigoalves**                                                                                                         |
+| URI               | **[rodrigoalves](https://www.urionlinejudge.com.br/judge/en/profile/34294)**                                             |
+| TopCoder          | **rodrigoalves94**                                                                                                       |
 | Codeforces        | **[rodrigoalvesvieira](http://codeforces.com/profile/rodrigoalvesvieira)**                                                                                                    |
-| SPOJ              | **[rodrigoalves](http://www.spoj.com/users/rodrigoalves)**                                                                |
+| SPOJ              | **[rodrigoalves](http://www.spoj.com/users/rodrigoalves)**                                                               |
 | SPOJ Brasil       | **[rodrigoalves](http://br.spoj.com/users/rodrigoalves)**                                                                 |
-| LeetCode          | **[rodrigoalvesvieira](https://leetcode.com/rodrigoalvesvieira/)**                                                                 |
+| LeetCode          | **[rodrigoalvesvieira](https://leetcode.com/rodrigoalvesvieira/)**                                                       |
+| Kattis          | **[rodrigo-alves-vieira](https://open.kattis.com/users/rodrigo-alves-vieira)**                                                       |
 
 ### Project Euler
 
