@@ -2,6 +2,8 @@
 
 My solutions to many of the programming (Computer Science) problems on several online judges, including [UVa], [ACM/ICPC], [TopCoder], [Codeforces], [URI], [SPOJ], [SPOJ Brasil] and [LeetCode].
 
+![Competitive](https://i.imgur.com/sUO1nX0.jpg)
+
 ## Code
 
 Preferably my solutions are written in C++. Whenever I find myself unable to solve some problem in plain C++, I switch to Java.
@@ -34,13 +36,14 @@ Be happy!
 | Online Judge      | Profile                                                                                                                   |
 | ------------------| :------------------------------------------------------------------------------------------------------------------------:|
 | UVa               | **[rodrigoalves](http://uva.onlinejudge.org/index.php?option=onlinejudge&Itemid=20&page=show_authorstats&userid=207816)** |
-| ACM-ICPC          | **rodrigoalves**                                                                                                          |
-| URI               | **[rodrigoalves](https://www.urionlinejudge.com.br/judge/en/profile/34294)**                                              |
-| TopCoder          | **rodrigoalves94**                                                                                                        |
+| ACM-ICPC          | **rodrigoalves**                                                                                                         |
+| URI               | **[rodrigoalves](https://www.urionlinejudge.com.br/judge/en/profile/34294)**                                             |
+| TopCoder          | **rodrigoalves94**                                                                                                       |
 | Codeforces        | **[rodrigoalvesvieira](http://codeforces.com/profile/rodrigoalvesvieira)**                                                                                                    |
-| SPOJ              | **[rodrigoalves](http://www.spoj.com/users/rodrigoalves)**                                                                |
+| SPOJ              | **[rodrigoalves](http://www.spoj.com/users/rodrigoalves)**                                                               |
 | SPOJ Brasil       | **[rodrigoalves](http://br.spoj.com/users/rodrigoalves)**                                                                 |
-| LeetCode          | **[rodrigoalvesvieira](https://leetcode.com/rodrigoalvesvieira/)**                                                                 |
+| LeetCode          | **[rodrigoalvesvieira](https://leetcode.com/rodrigoalvesvieira/)**                                                       |
+| Kattis          | **[rodrigo-alves-vieira](https://open.kattis.com/users/rodrigo-alves-vieira)**                                                       |
 
 ### Project Euler
 
