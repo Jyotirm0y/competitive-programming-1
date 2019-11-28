@@ -1,11 +1,10 @@
 # Competitive Programming
 
-My solutions to many of the programming (Computer Science) problems on several online judges, including [UVa], [ACM/ICPC], [TopCoder], [Codeforces], [URI], [SPOJ] and [SPOJ Brasil].
+My solutions to many of the programming (Computer Science) problems on several online judges, including [UVa], [ACM/ICPC], [TopCoder], [Codeforces], [URI], [SPOJ], [SPOJ Brasil] and [LeetCode].
 
 ## Code
 
-Preferably my solutions are written in C++. Whenever I find myself unable to solve
-some problem in plain C++, I switch to Java.
+Preferably my solutions are written in C++. Whenever I find myself unable to solve some problem in plain C++, I switch to Java.
 
 Some of the solutions may contain code from the book [Competitive Programming 3], by Steven and Felix Halim.
 
@@ -77,7 +76,7 @@ A list of people who I personally know and who are way above me on Competitive P
 
 ## Copyright
 
- © 2013-2015 Rodrigo Alves
+ © 2013-2019 Rodrigo Alves
 
 [University of Valladolid Online Judge]: http://uva.onlinejudge.org
 [new Issue]: https://github.com/rodrigoalvesvieira/UVa/issues/new
@@ -92,3 +91,4 @@ A list of people who I personally know and who are way above me on Competitive P
 [SPOJ]: http://www.spoj.com
 [SPOJ Brasil]: http://br.spoj.com
 [even Project Euler]: https://projecteuler.net
+[LeetCode]: https://leetcode.com/
