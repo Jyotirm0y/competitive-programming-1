@@ -1,4 +1,4 @@
-// author: Rodrigo Alves
+// author: Rodrigo Alves Vieira
 // problem: Brick Wall Patterns
 // url: http://uva.onlinejudge.org/index.php?option=onlinejudge&page=show_problem&problem=841
 // status: AC

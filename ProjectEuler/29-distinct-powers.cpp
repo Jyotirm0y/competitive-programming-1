@@ -1,7 +1,8 @@
 // author: Rodrigo Alves
 // problem: Distinct powers
 // url: http://projecteuler.net/problem=29
-#include <bits/stdc++.h>
+// status: WA
+#include <cstdio>
 
 int main()
 {

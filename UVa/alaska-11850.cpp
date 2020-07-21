@@ -1,7 +1,7 @@
-// author: Rodrigo Alves
+// author: Rodrigo Alves Vieira
 // problem: Alaska
 // url: http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=2950
-// status: WA
+// status: AC
 #include <bits/stdc++.h>
 using namespace std;
 

@@ -65,6 +65,7 @@ This repo also contains my solutions to many of the problems from [Project Euler
 - Maratona de Programação (Brazil) http://maratona.ime.usp.br
 - uDebug - inputs and outputs for UVa problems http://www.udebug.com
 - UVa Problem Hints http://www.outsbook.com/uva
+- USACO Training Program https://train.usaco.org/
 - Algorithmist http://www.algorithmist.com/index.php/Main_Page
 - Maratonando http://www.maratonando.com.br
 
@@ -86,7 +87,7 @@ A list of people who I personally know and who are way above me on Competitive P
 
 ## Copyright
 
-© 2013-2020 Rodrigo Alves
+© 2013-2020 Rodrigo Alves Vieira
 
 [university of valladolid online judge]: http://uva.onlinejudge.org
 [new issue]: https://github.com/rodrigoalvesvieira/UVa/issues/new

@@ -1,15 +1,17 @@
-// author: Rodrigo Alves
+// author: Rodrigo Alves Vieira
 // problem: Even Fibonacci Numbers
 // url: https://projecteuler.net/problem=2
 // status: AC
-#include <bits/stdc++.h>
+// submitted: June 25th 2020
+#include <cstdio>
+#include <vector>
 using namespace std;
 
 #define LIMIT 4000000
 
 int main()
 {
-  long long N, number, result = 0;
+  long long result = 0;
   vector<long long> table;
   table.push_back(0);
   table.push_back(1);
