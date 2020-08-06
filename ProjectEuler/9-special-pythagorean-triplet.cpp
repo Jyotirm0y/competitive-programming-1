@@ -7,6 +7,7 @@
 using namespace std;
 
 #define LIMIT 426
+#define GOAL 1000
 
 int main()
 {
@@ -15,9 +16,11 @@ int main()
             for (int c = 1; c < LIMIT; c++) {
                 
                 if (a < b && b < c) {
-                    if (a*a + b*b == c*c && a + b + c == 1000) {
+                    if (a*a + b*b == c*c && a + b + c == GOAL) {
                         printf("triplet => a == %d b == %d c == %d\n", a, b, c);
                         printf("product => %d\n", a * b * c);
+
+                        return 0;
                     }
                 }
             }
